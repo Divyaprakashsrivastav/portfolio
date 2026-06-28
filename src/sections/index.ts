@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { About } from './About'
+export { ExperienceSection, Experience } from './Experience'
+export { FeaturedWorkSection, FeaturedWork } from './FeaturedWork'
+export { CurrentlyBuildingSection, CurrentlyBuilding } from './CurrentlyBuilding'
+export { ContactSection, Contact } from './Contact'

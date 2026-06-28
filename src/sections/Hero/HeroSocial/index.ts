@@ -1,0 +1,1 @@
+export { HeroSocial } from './HeroSocial'

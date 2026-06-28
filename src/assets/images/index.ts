@@ -1,0 +1,3 @@
+/** Static image assets */
+
+export {}
