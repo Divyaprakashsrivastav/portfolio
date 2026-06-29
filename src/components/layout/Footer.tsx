@@ -1,5 +1,6 @@
 import { PROFILE, SOCIAL_LINKS } from '@/constants'
 import { Container } from '@/components/layout'
+import { ZuraaBuildingBadge } from '@/components/brand'
 import { SocialIconLink } from '@/components/ui/SocialIconLink'
 
 export function Footer() {
@@ -22,6 +23,9 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+            <div className="mt-6 flex justify-center md:justify-start">
+              <ZuraaBuildingBadge />
+            </div>
           </div>
 
           <nav aria-label="Footer links" className="space-y-3 text-center md:text-left">

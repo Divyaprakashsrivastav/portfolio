@@ -76,7 +76,11 @@ export function ExperienceItem({
       >
         <div className="relative z-10 grid gap-6 sm:gap-8 lg:grid-cols-[auto_1fr] lg:gap-12">
           <motion.div variants={experienceSlideIn} className="flex flex-row items-center gap-4 lg:flex-col lg:items-start lg:gap-5">
-            <CompanyLogo initials={entry.logoInitials} company={entry.company} />
+            <CompanyLogo
+              initials={entry.logoInitials}
+              company={entry.company}
+              brand={entry.brand}
+            />
             <span
               className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] text-accent"
               aria-hidden

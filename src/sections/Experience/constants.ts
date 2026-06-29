@@ -18,6 +18,7 @@ export interface ExperienceEntry {
   achievements: readonly string[]
   logoInitials: string
   icon: ExperienceIcon
+  brand?: 'zuraa'
 }
 
 export const EXPERIENCE = {
@@ -45,6 +46,7 @@ export const EXPERIENCES: readonly ExperienceEntry[] = [
     ],
     logoInitials: 'Z',
     icon: 'founder',
+    brand: 'zuraa',
   },
   {
     id: 'astrenox',
